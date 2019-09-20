@@ -1,0 +1,13 @@
+<div>
+  <p> Upload data: </p><input type="file" (change)="dataFileChange($event)" placeholder="upload file" name="file" accept=".csv"/>
+</div>
+<div>
+<p>upload map </p><input type="file" (change)="mapFileChange($event)" placeholder="upload file" name="file" accept=".csv"/>
+</div>
+<div>
+<input type="submit" value="Submit" (click)="uploadFiles()">
+</div>
+
+
+
+

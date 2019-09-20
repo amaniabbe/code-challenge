@@ -1,0 +1,12 @@
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/config/BeanWrapperFieldSetMapperCustom.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/config/BatchConfig.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/config/ImportJobConfig.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/controllers/CustomerController.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/repository/CustomerRepository.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/config/CustomerItemWriter.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/domain/Customer.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/service/CustomerService.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/DemoApplication.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/dto/CustomerDTO.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/config/CustomJobLauncher.java
+/Users/apple/Desktop/people10/app/src/main/java/com/people10/app/config/CustomerItemProcessor.java

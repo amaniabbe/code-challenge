@@ -1,0 +1,5 @@
+com/people10/app/domain/Customer.class
+com/people10/app/service/CustomerService.class
+com/people10/app/DemoApplication.class
+com/people10/app/repository/CustomerRepository.class
+com/people10/app/controllers/CustomerController.class
