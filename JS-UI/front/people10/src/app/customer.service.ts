@@ -9,7 +9,9 @@ import {Customer} from './domain/Customer';
 })
 export class CustomerService {
   customers:Customer[]
-  constructor() { this.customers = customers }
+  constructor() { this.customers = customers
+    this.customers.sort((a , b) => a.id - b.id)
+  }
   
 
   
@@ -23,9 +25,25 @@ export class CustomerService {
   }
 
   public deleteCustomer(id):Observable<Customer[]>{
-    return of(this.customers.splice(id,1))
+    this.customers = customers.filter(obj => obj.id == id)
+    return of(this.customers)
   }
 
-  
+  public editCustomer(from:Customer , to:Customer){
+    var  index = this.customers.indexOf(from)
+    if(index > -1){
+      this.customers[index].email = to.email;
+      this.customers[index].ip = to.ip;
+      this.customers[index].latitude = to.latitude;
+      this.customers[index].longitude = to.longitude;
+    }
+
+  }
+
+  public addCustomer(customer:Customer){
+    var id = this.customers[customers.length -1].id;
+    customer.id = id + 1;
+    customers.push(customer); 
+  }
 
 }
